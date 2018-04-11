@@ -10,4 +10,4 @@ inbox = outlook.GetDefaultFolder(6) # "6" refers to the index of a folder - in t
                                     # any other folder
 messages = inbox.Items
 message = messages.GetLast()
-ody_content = message.body
+body_content = message.body
